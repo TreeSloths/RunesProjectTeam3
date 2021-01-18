@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c07567f9a05ab47b37152421bb0972, type: 3}
   m_Name: StrengthRune
   m_EditorClassIdentifier: 
-  name: 
-  type: 
-  typeColor: {r: 0, g: 0, b: 0, a: 0}
-  rarityLevel: 0
+  name: Sword
+  rarity: Epic
+  typeColor: {r: 0, g: 0, b: 1, a: 1}
+  amount: 4

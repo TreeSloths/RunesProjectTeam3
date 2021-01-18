@@ -2,8 +2,8 @@
 [CreateAssetMenu(fileName = "New Rune", menuName = "Rune")]
 public class ObjectTemplate : ScriptableObject
 {
-    public string name;
-    public string type;
+    public new string name;
+    public string rarity;
     public Color typeColor;
-    public int rarityLevel;
+    public int amount;
 }
