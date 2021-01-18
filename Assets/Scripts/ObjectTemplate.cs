@@ -1,8 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
+[CreateAssetMenu(fileName = "New Rune", menuName = "Rune")]
 public class ObjectTemplate : ScriptableObject
 {
-    [SerializeField] private string colorField;
+    public string name;
+    public string type;
+    public Color typeColor;
+    public int rarityLevel;
 }

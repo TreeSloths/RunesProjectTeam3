@@ -1,8 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
+public class Rune : MonoBehaviour{
+   public ObjectTemplate runeTemplate;
+   public Button button;
+   public Text typeText;
 
-public class Rune : MonoBehaviour
-{
-   
+   private void Start(){
+      this.name = runeTemplate.name;
+      this.button.GetComponent<Image>().color = runeTemplate.typeColor;
+      this.typeText.text = runeTemplate.type;
+   }
 }
