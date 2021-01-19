@@ -69,3 +69,6 @@ crashlytics-build.properties
 .idea/.idea.RunesProjectTeam3/.idea/workspace.xml
 .idea/.idea.RunesProjectTeam3/.idea/workspace.xml
 Packages/packages-lock.json
+.idea/.idea.RunesProjectTeam3/.idea/workspace.xml
+*.xml
+*.xml
