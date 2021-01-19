@@ -5,10 +5,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CreateRunes.cs" t="Include" />
           <e p="ObjectTemplate.cs" t="Include" />
+          <e p="Rarity.cs" t="Include" />
+          <e p="RarityTypesList.cs" t="Include" />
           <e p="Rune.cs" t="Include" />
           <e p="RuneData.cs" t="Include" />
           <e p="RuneDataBase.cs" t="Include" />
+          <e p="RuneInventory.cs" t="Include" />
+          <e p="RuneInventoryView.cs" t="Include" />
+          <e p="RuneType.cs" t="Include" />
+          <e p="RuneTypeList.cs" t="Include" />
           <e p="ThisRune.cs" t="Include" />
         </e>
       </e>
