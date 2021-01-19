@@ -10,6 +10,7 @@
             <e p="ObjectTemplate.cs" t="Include" />
             <e p="RuneData.cs" t="Include" />
             <e p="RuneDataBase.cs" t="Include" />
+            <e p="ThisRune.cs" t="Include" />
           </e>
           <e p="Rarity.cs" t="Include" />
           <e p="RarityTypesList.cs" t="Include" />
@@ -18,7 +19,6 @@
           <e p="RuneInventoryView.cs" t="Include" />
           <e p="RuneType.cs" t="Include" />
           <e p="RuneTypeList.cs" t="Include" />
-          <e p="ThisRune.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
