@@ -8,7 +8,7 @@ public class RuneInventory : MonoBehaviour{
         this.ownedRunes.Add(rune);
         this.RuneAdded?.Invoke(rune);
     }
-
+    // this is just used for testing to instantiate runes to screen
     public void AddFourRunes(){
         if (ownedRunes == null){
             ownedRunes.Add(new Rune(new RuneType("Str"), new Rarity("Sweet")));
