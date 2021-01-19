@@ -4,9 +4,12 @@ public class CreateRunes : MonoBehaviour{
     public RuneTypeList runeTypeList;
     public RarityTypesList rarityTypesList;
     public RuneInventory runeInventory;
-    public int amountOfRunes = 4;
-    private void CreateNewRune(){
-        for (int i = 0; i < amountOfRunes; i++){
+    public int amountOfRunesToCreate;
+    private void CreateNewRune(RuneType runeType, Rarity rarity){
+        runeInventory.AddRune(new Rune(runeType, rarity));
+    }
+    private void CreateFourNewRunes(){
+        for (int i = 0; i < amountOfRunesToCreate; i++){
             runeInventory.AddRune(new Rune(runeTypeList.RandomRuneType(), new Rarity("Common")));
         }
     }
@@ -16,7 +19,6 @@ public class CreateRunes : MonoBehaviour{
     // dropped rune in one slot adds to list
     // if rune is picked up from slot then remove rune from list
     public void MergeRunes(Rune[] runes, int amount){
-        
         if (amount == 2){
             // 20 % chance for upgraded rarity
         }

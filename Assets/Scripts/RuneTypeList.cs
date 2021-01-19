@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
 
-public class RuneTypeList : MonoBehaviour{
-    public List<RuneType> RuneTypes;
+public class RuneTypeList{
+    public List<RuneType> RuneTypes = new List<RuneType>();
     private void Awake(){
         RuneTypes.Add(new RuneType("Strength"));
         RuneTypes.Add(new RuneType("Intelligence"));

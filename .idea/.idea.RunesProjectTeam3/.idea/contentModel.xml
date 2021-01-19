@@ -19,6 +19,7 @@
           <e p="RuneInventoryView.cs" t="Include" />
           <e p="RuneType.cs" t="Include" />
           <e p="RuneTypeList.cs" t="Include" />
+          <e p="SetupInventory.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

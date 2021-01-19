@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
 
-public class RarityTypesList : MonoBehaviour{
-    public List<Rarity> Rarities;
+public class RarityTypesList{
+    public List<Rarity> Rarities = new List<Rarity>();
     private void Awake(){
         Rarities.Add(new Rarity("Common"));
         Rarities.Add(new Rarity("Uncommon"));
