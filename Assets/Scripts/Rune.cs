@@ -10,8 +10,9 @@
          this.AmountAdded?.Invoke(value);
       }
    }
-   public Rune(RuneType runeType, Rarity rarity){
+   public Rune(RuneType runeType, Rarity rarity, int amountOwned){
       this.runeType = runeType;
       this.rarity = rarity;
+      this.AmountOwned = amountOwned;
    }
 }

@@ -10,11 +10,8 @@ public class RuneInventory : MonoBehaviour{
     }
     // this is just used for testing to instantiate runes to screen
     public void AddFourRunes(){
-        if (ownedRunes == null){
-            ownedRunes.Add(new Rune(new RuneType("Str"), new Rarity("Sweet")));
-            ownedRunes.Add(new Rune(new RuneType("Int"), new Rarity("Sour")));
-            ownedRunes.Add(new Rune(new RuneType("Dex"), new Rarity("Poppy")));
-            ownedRunes.Add(new Rune(new RuneType("Agi"), new Rarity("Bland")));
-        }
+        ownedRunes.Add(new Rune(new RuneType("Strength", Color.red), new Rarity("Rare"), 24));
+        ownedRunes.Add(new Rune(new RuneType("Intelligence", Color.blue), new Rarity("Epic"),5));
+        ownedRunes.Add(new Rune(new RuneType("Agility",Color.green), new Rarity("Legendary"),70));
     }
 }

@@ -6,11 +6,11 @@ public class CreateRunes : MonoBehaviour{
     public RuneInventory runeInventory;
     public int amountOfRunesToCreate;
     private void CreateNewRune(RuneType runeType, Rarity rarity){
-        runeInventory.AddRune(new Rune(runeType, rarity));
+        runeInventory.AddRune(new Rune(runeType, rarity,1));
     }
     private void CreateFourNewRunes(){
         for (int i = 0; i < amountOfRunesToCreate; i++){
-            runeInventory.AddRune(new Rune(runeTypeList.RandomRuneType(), new Rarity("Common")));
+            runeInventory.AddRune(new Rune(runeTypeList.RandomRuneType(), new Rarity("Common"),1));
         }
     }
     // Merging runes needs to be same color/type

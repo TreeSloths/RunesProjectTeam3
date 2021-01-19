@@ -72,3 +72,5 @@ Packages/packages-lock.json
 .idea/.idea.RunesProjectTeam3/.idea/workspace.xml
 *.xml
 *.xml
+*.xml
+*.asset

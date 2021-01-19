@@ -5,9 +5,9 @@ using Random = System.Random;
 public class RuneTypeList{
     public List<RuneType> RuneTypes = new List<RuneType>();
     private void Awake(){
-        RuneTypes.Add(new RuneType("Strength"));
-        RuneTypes.Add(new RuneType("Intelligence"));
-        RuneTypes.Add(new RuneType("Agility"));
+        RuneTypes.Add(new RuneType("Strength", Color.red));
+        RuneTypes.Add(new RuneType("Intelligence", Color.blue));
+        RuneTypes.Add(new RuneType("Agility", Color.green));
     }
     public RuneType RandomRuneType(){
         var random = new Random();
