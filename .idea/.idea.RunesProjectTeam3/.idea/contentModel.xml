@@ -19,6 +19,7 @@
           <e p="Rune.cs" t="Include" />
           <e p="RuneInventory.cs" t="Include" />
           <e p="RuneInventoryView.cs" t="Include" />
+          <e p="RuneStackView.cs" t="Include" />
           <e p="RuneType.cs" t="Include" />
           <e p="RuneTypeList.cs" t="Include" />
           <e p="SetupInventory.cs" t="Include" />
