@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RuneStackView : MonoBehaviour
+public class MergeResult : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

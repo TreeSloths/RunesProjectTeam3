@@ -8,6 +8,7 @@
           <e p="CreateRunes.cs" t="Include" />
           <e p="Draggable.cs" t="Include" />
           <e p="DropSlot.cs" t="Include" />
+          <e p="MergeArea.cs" t="Include" />
           <e p="Old Scripts" t="Include">
             <e p="ObjectTemplate.cs" t="Include" />
             <e p="RuneData.cs" t="Include" />
@@ -19,9 +20,9 @@
           <e p="Rune.cs" t="Include" />
           <e p="RuneInventory.cs" t="Include" />
           <e p="RuneInventoryView.cs" t="Include" />
-          <e p="RuneStackView.cs" t="Include" />
           <e p="RuneType.cs" t="Include" />
           <e p="RuneTypeList.cs" t="Include" />
+          <e p="RuneView.cs" t="Include" />
           <e p="SetupInventory.cs" t="Include" />
         </e>
       </e>

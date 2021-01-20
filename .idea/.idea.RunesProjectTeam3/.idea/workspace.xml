@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbdbd59e-ea0a-43c2-9bf7-5a0b9e08154d" name="Default Changelist" comment="" />
+    <list default="true" id="dbdbd59e-ea0a-43c2-9bf7-5a0b9e08154d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunesProjectTeam3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunesProjectTeam3/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunesProjectTeam3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunesProjectTeam3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DropSlot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RuneInventoryView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RuneInventoryView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RuneStackView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SetupInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SetupInventory.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RuneStackView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MergeArea.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -39,17 +46,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ThisRune.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RuneData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RuneDataBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RuneInventoryView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RarityTypesList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RuneTypeList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Old Scripts/RuneDataBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Old Scripts/RuneData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SetupInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RuneInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rarity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RuneType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rune.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateRunes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropSlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SetupInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RuneInventoryView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RuneStackView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MergeArea.cs" />
       </list>
     </option>
   </component>
