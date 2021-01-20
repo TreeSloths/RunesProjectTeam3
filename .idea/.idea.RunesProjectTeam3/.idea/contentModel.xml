@@ -6,6 +6,8 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CreateRunes.cs" t="Include" />
+          <e p="Draggable.cs" t="Include" />
+          <e p="DropSlot.cs" t="Include" />
           <e p="Old Scripts" t="Include">
             <e p="ObjectTemplate.cs" t="Include" />
             <e p="RuneData.cs" t="Include" />

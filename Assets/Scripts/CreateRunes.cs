@@ -1,8 +1,6 @@
 using UnityEngine;
 
 public class CreateRunes : MonoBehaviour{
-    public RuneTypeList runeTypeList;
-    public RarityTypesList rarityTypesList;
     public RuneInventory runeInventory;
     public int amountOfRunesToCreate;
     private void CreateNewRune(RuneType runeType, Rarity rarity){
@@ -10,7 +8,7 @@ public class CreateRunes : MonoBehaviour{
     }
     private void CreateFourNewRunes(){
         for (int i = 0; i < amountOfRunesToCreate; i++){
-            runeInventory.AddRune(new Rune(runeTypeList.RandomRuneType(), new Rarity("Common"),1));
+            runeInventory.AddRune(new Rune(RuneTypeList.RandomRuneType(), new Rarity("Common"),1));
         }
     }
     // Merging runes needs to be same color/type
