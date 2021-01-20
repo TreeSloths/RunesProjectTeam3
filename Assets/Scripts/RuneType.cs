@@ -1,5 +1,6 @@
+using System;
 using UnityEngine;
-
+[Serializable]
 public class RuneType{
     public string runeType;
     public Color typeColor;

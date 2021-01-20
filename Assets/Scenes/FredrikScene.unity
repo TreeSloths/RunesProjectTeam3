@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94851314a1cd045d5846e811902b938a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runePrefab: {fileID: 5435044498343657147, guid: c961d51db6dcf471fbcaad7f2806971c,
+  runePrefab: {fileID: 5435044498343657147, guid: 321d36c91c60c416983b8f781f4a9152,
     type: 3}
   runeInventory: {fileID: 750719489}
 --- !u!114 &750719488
@@ -286,15 +286,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
+    m_Left: 50
+    m_Right: 50
+    m_Top: 50
+    m_Bottom: 50
+  m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 100, y: 100}
-  m_Spacing: {x: 0, y: 0}
+  m_CellSize: {x: 150, y: 150}
+  m_Spacing: {x: 20, y: 20}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &750719489
@@ -309,6 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f873397c2942648c09315738d51e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownedRunes: []
 --- !u!1 &1333942323
 GameObject:
   m_ObjectHideFlags: 0

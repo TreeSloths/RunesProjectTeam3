@@ -1,4 +1,6 @@
-﻿public class Rune{
+﻿using System;
+[Serializable]
+public class Rune{
    public RuneType runeType;
    public Rarity rarity;
    private int amountOwned;

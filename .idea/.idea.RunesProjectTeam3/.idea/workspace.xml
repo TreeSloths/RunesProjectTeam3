@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbdbd59e-ea0a-43c2-9bf7-5a0b9e08154d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RunesProjectTeam3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunesProjectTeam3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunesProjectTeam3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunesProjectTeam3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CreateRunes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CreateRunes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RarityTypesList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RarityTypesList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RuneInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RuneInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FredrikScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FredrikScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old Scripts/RuneData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Old Scripts/RuneData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old Scripts/RuneDataBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Old Scripts/RuneDataBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rarity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rarity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rune.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rune.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RuneType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RuneType.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +45,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RuneData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RuneDataBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RuneInventoryView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RarityTypesList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RuneTypeList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CreateRunes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Old Scripts/RuneDataBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Old Scripts/RuneData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SetupInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RuneInventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rarity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RuneType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RuneTypeList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rune.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SetupInventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RarityTypesList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RuneInventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CreateRunes.cs" />
       </list>
     </option>
   </component>
