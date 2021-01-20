@@ -5,19 +5,17 @@ using UnityEngine;
 public class RuneView : MonoBehaviour
 {
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    private RuneStack target;
+    public void SetUp(RuneStack runeStack){ // needs to be implemented.
+        //runeStack.OnCountChanged += UpdateCountLabel;
+        this.target = runeStack;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void OnBeginDrag(){ // needs to be implemented.
+        //var instance = InstantiatePrefab();
+        //instance.SetUp(this.target.RuneType);
+        //this.runeStack.RemoveOneRune();
     }
-
-    public void SetUp(Rune rune){
+    public void SetUp(Rune rune){ // needs to be implemented.
         throw new System.NotImplementedException();
     }
 }

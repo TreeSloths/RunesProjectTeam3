@@ -4,6 +4,7 @@ using UnityEngine;
 public class RuneInventory : MonoBehaviour{
     public event System.Action<Rune> RuneAdded;
     public List<Rune> ownedRunes = new List<Rune>();
+    public RuneStack[] runeStack = new RuneStack[15]; // this is for the inventory view.
     public void AddRune(Rune rune){
         this.ownedRunes.Add(rune);
         this.RuneAdded?.Invoke(rune);
