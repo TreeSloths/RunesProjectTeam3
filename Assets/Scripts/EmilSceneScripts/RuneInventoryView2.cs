@@ -8,6 +8,6 @@ public class RuneInventoryView2 : MonoBehaviour {
     }
     void CreateRuneView(Rune2 rune){
         Debug.Log(rune.rarity);
-        GameObject.Find("Text").GetComponent<UnityEngine.UI.Text>().text += $"{rune.runeType} {rune.rarity} ";
+        GameObject.Find("TestText").GetComponent<UnityEngine.UI.Text>().text += $"{rune.runeType} {rune.rarity} ";
     }
 }
